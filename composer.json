@@ -1,6 +1,6 @@
 {
 	"name": "lukesnowden/application-base",
-	"description": "My personal starter aplication",
+	"description": "My personal starter application",
 	"keywords": [],
 	"license": "MIT",
 	"require": {
