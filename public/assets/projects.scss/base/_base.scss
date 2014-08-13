@@ -1,0 +1,30 @@
+/*
+| ------------------------------------
+| Base styling
+| ------------------------------------
+*/
+
+@include border-box-sizing;
+
+html,
+body {
+	font-size: $base-font-size;
+}
+
+body {
+	background: $base-background-color;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	font-weight: $base-font-weight;
+	color: $base-font-color;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+}
+
+hr {
+  border: solid $lt-grey;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 25px 0;
+  height: 0;	
+}

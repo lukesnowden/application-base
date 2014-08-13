@@ -1,0 +1,73 @@
+/*
+| ------------------------------------
+| WC2014
+| ------------------------------------
+*/
+
+.wrapper {
+	margin-top: 20px;
+	.row {
+		padding: 10px;
+		overflow: hidden;
+	}
+	.matches {
+		@include span-columns(3,12);
+		// @if $responsive {
+		// 	@include at-breakpoint(0px 915px) {
+		// 		@include span-columns(12 omega,12);
+		// 	}
+		// }
+	}
+	.jamie {
+		@include span-columns(3,12);
+	}
+	.lucy {
+		@include span-columns(3,12);
+	}
+	.result {
+		@include span-columns(3 omega,12);
+	}
+	strong {
+		color: $green;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	.alt {
+		background: #fff;
+	}
+}
+
+.head {
+	font-weight: bold;
+	font-size: 18px;
+	background: $yellow;
+	color: $green;
+	border-bottom: 5px solid $green;
+}
+
+.match {
+}
+
+.logo {
+	background: #fff;
+	padding: 10px 0;
+	overflow: hidden;
+	.img {
+		@include span-columns(3,12);
+	}
+	.title {
+		@include span-columns(9 omega,12);
+		padding: 60px 0 0 20px;
+		font-size: 34px;
+		font-weight: bold;
+		color: $green;
+	}
+}
+
+.footer {
+	margin: 20px 0;
+	padding: 10px 0;
+	border-bottom: 1px solid $green;
+	border-top: 1px solid $green;
+	color: $green;
+}

@@ -1,0 +1,48 @@
+/*!
+Theme Name: Milward Construction
+Theme URI:
+Description: A custom built theme
+Version: 1.0
+Author: Jamie Bourn
+Author URI: www.purposemedia.co.uk
+
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+//
+// Centralize all of your imports here
+//
+
+// COMPASS: Import Compass framework (REQUIRED!)
+@import "compass";
+
+// RESET: CSS reset
+@import "compass/reset";
+
+// MODULES: Dependencies that generally don't output any CSS
+@import "modules/mixins";
+@import "modules/variables";
+
+// SETTINGS: Overrides and settings
+@import "settings";
+
+// SUSY: Import Susy responsive grids
+@import "susy";
+
+// BASE: All default styling
+@import "base/base";
+@import "base/headings";
+@import "base/paragraphs";
+@import "base/links";
+@import "base/lists";
+@import "base/code";
+@import "base/blockquotes";
+@import "base/images";
+@import "base/tables";
+@import "base/forms";
+@import "base/print";
+
+
+@import "partials/home";

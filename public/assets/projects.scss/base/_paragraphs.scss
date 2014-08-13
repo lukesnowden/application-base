@@ -1,0 +1,38 @@
+/*
+| ------------------------------------
+| Paragraphs
+| ------------------------------------
+*/
+
+p {
+	margin: 0 0 16px 0;
+	font-size: $base-font-size;
+}
+
+p img {
+	margin: 0;
+}
+
+p.lead {
+	font-size: $lead-font-size; line-height: $base-line-height; color: $lead-font-color;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: 500;
+}
+
+small {
+	font-size: 80%;
+	line-height: inherit;
+}
+
+sup {
+	font-size: 55%;
+	vertical-align: top;
+	padding-left: 1px;
+	line-height: inherit;
+}

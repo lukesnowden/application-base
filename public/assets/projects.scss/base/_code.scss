@@ -1,0 +1,18 @@
+/*
+| ------------------------------------
+| Code
+| ------------------------------------
+*/
+
+pre {
+	background: $lt-grey;
+	color: $off-black;
+	padding: 0 20px 20px 20px;
+	margin: 0 0 16px 0; /* Probably the same as paragraphs */
+}
+
+code {
+	font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	margin: 0;
+	padding: 0;
+}

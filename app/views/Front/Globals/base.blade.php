@@ -1,0 +1,6 @@
+
+{{ $HTMLheader }}
+
+{{ $content }}
+
+{{ $HTMLfooter }}

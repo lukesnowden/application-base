@@ -1,0 +1,124 @@
+//
+// Shared Boil Variables
+// 
+// 
+
+// Colors
+$green 		: #1abc9c !default;
+$dk-green 	: #16a085 !default;
+$emerald 	: #2ecc71 !default;
+$dk-emerald : #27ae60 !default;
+$blue 		: #3498db !default;
+$dk-blue 	: #2980b9 !default;
+$navy 		: #34495e !default;
+$dk-navy 	: #2c3e50 !default;
+$purple 	: #9b59b6 !default;
+$dk-purple 	: #8e44ad !default;
+$yellow 	: #f1c40f !default;
+$dk-yellow 	: #f39c12 !default;
+$orange 	: #e67e22 !default;
+$dk-orange 	: #d35400 !default;
+$red 		: #e74c3c !default;
+$dk-red 	: #c0392b !default;
+$lt-grey 	: #ecf0f1 !default;
+$grey 		: #bdc3c7 !default;
+$med-grey 	: #95a5a6 !default;
+$dk-grey 	: #7f8c8d !default;
+$off-black 	: #465563 !default;
+
+// Brand Colors
+$brand 		: $blue 	!default;
+$sub-brand 	: $grey 	!default;
+
+// Misc Colors
+$lighter 	: #f3f3f3 	!default;
+$light 		: #e2e2e2 	!default;
+
+// Base
+
+$base-background-color 	: #fafafa 			!default;
+$base-font-family 		: Georgia, serif  	!default;
+$base-font-color 		: $off-black 		!default;
+$base-font-weight 		: normal 			!default;
+// Headings
+
+$base-heading-color 		: $off-black !default;
+$base-heading-font-family 	: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-heading-font-weight 	: normal !default;
+$base-heading-line-height 	: 1.2 !default;
+$base-heading-bottom-margin : 16px;
+
+$h1-size : 28px !default;
+$h2-size : 24px !default;
+$h3-size : 20px !default;
+$h4-size : 18px !default;
+$h5-size : 16px !default;
+$h6-size : 12px !default;
+
+$h1-weight : 500 !default;
+$h2-weight : 500 !default;
+$h3-weight : 500 !default;
+$h4-weight : 500 !default;
+$h5-weight : 500 !default;
+$h6-weight : 500 !default;
+
+// Paragraphs
+
+$lead-font-color :  darken($off-black, 8%) !default;
+$lead-font-size  :  17px !default;
+
+// Links
+
+$link-color 	  : $brand !default;
+$link-hover-focus : darken($link-color, 10%)!default;
+
+// Lists
+
+$list-margin 	  : 30px  	 !default;
+$li-bottom-margin : 4px 	 !default;
+$list-color 	  : $dk-grey !default;
+
+// Blockquotes
+
+$bq-font-color 	 : $dk-grey 			 !default;
+$bq-margin 		 : 0 0 20px 20px 		 !default;
+$bq-padding 	 : 9px 20px 0 19px 		 !default;
+$cite-font-family : "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$cite-font-size  : 14px 				 !default;
+$cite-font-color : darken($dk-grey, 20%) !default;
+
+// Tables
+
+$table-bg 				: $base-background-color 			 !default;
+$table-even-row-bg 		: darken($base-background-color, 5%) !default;
+
+$table-border-style 	: solid 		!default;
+$table-width 			: 100% 			!default;
+$table-border-size 		: 1px 			!default;
+$table-border-color 	: $grey 		!default;
+
+$table-head-bg 			: #eee 		 	!default;
+$table-head-font-size 	: 14px 		 	!default;
+$table-head-font-color  : $off-black 	!default;
+$table-head-font-weight : bold 		 	!default;
+$table-head-padding 	: 8px 10px 10px !default;
+
+$table-row-padding 		: 9px 10px   	!default;
+$table-row-font-size 	: 14px 		 	!default;
+$table-row-font-color 	: $off-black 	!default;
+$table-line-height 		: 18px 		 	!default;
+
+$table-display 			: table-cell 	!default;
+$table-margin-bottom 	: 20px 		 	!default;
+
+// Forms
+
+$form-font-family 	: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$form-font-size 	: $base-font-size - 2 !default;
+$form-padding 		: 10px 				  !default;
+$form-border 		: 1px solid $lt-grey  !default;
+$submit-background 	: $brand 		  	  !default;
+$submit-padding 	: 10px 20px 		  !default;
+$submit-font-size 	: $base-font-size - 2 !default;
+$submit-font-weight : normal 			  !default;
+$submit-font-color 	: $lt-grey 			  !default;
