@@ -1,6 +1,6 @@
 <?php
 
-$bingings = array();
+$bindings = array();
 
 foreach( $bindings as $interface => $repository ) {
 	App::bind( $interface, $repository );
