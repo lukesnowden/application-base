@@ -1,0 +1,73 @@
+//
+//	Overide any default variables here
+// ------------------------------------------------ \
+
+
+//	Edit Mode
+// 	Applies a semi-transparent grey background color
+// 	on all elements so you can see the structure.
+// 	Uncomment to use.
+// ------------------------------------------------ \
+
+// @include edit;
+
+
+//	Variable overrides
+// ------------------------------------------------ \
+
+// brand
+$brand: 		#269715;
+$accent: 		#ccc;
+
+// generic
+$base-font-size: 				14px;
+$base-line-height: 			21px;
+$base-font-color: 			$med-grey;
+$base-background-color: #fff;
+
+// font stacks
+$sans-serif: 	'Lato', Arial, sans-serif;
+$serif: 			Georgia, Times, "Times New Roman", serif;
+
+// headings
+$base-heading-line-height: 	1.1;						$base-heading-font-color: 	$dark;
+$base-heading-font-stack: 	$sans-serif;		$base-heading-font-weight: 	bold;
+
+//heading sizes
+$base-heading-font-size-h1: 36px ;					$base-heading-font-size-h2: 30px ;
+$base-heading-font-size-h3: 24px ;					$base-heading-font-size-h4: 18px ;
+$base-heading-font-size-h5: 14px ;					$base-heading-font-size-h6: 12px ;
+
+// links
+$base-link-color: $brand;
+$base-link-hover-color: lighten($brand, 10%);
+
+
+
+//	Grid settings
+// ------------------------------------------------ \
+
+// gutter widths
+$purposemedia-gutter: 3;
+
+// container breakpoint behaviour
+.container {
+	@include container();
+	padding: 0 1em;
+	max-width: 400px;
+	@include min($sml) {
+		max-width: 796px;
+	}
+	@include min($med) {
+		max-width: 1006px;
+	}
+	@include min($lg) {
+		max-width: 1246px;
+	}
+}
+
+
+//	Fontawesome fonts path
+// ------------------------------------------------ \
+
+$fa-font-path:        "../fonts";
